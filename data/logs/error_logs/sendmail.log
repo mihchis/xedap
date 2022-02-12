@@ -1,0 +1,2 @@
+[Tue, 25 Jan 2022 22:47:52 +0700] [Array] [User Error(256): Mcrypt library not available] [FILE: /includes/ini.php] [LINE: 81] [AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36]
+[Sat, 12 Feb 2022 20:27:09 +0700] [Array] [User Error(256): Mcrypt library not available] [FILE: /includes/ini.php] [LINE: 81] [AGENT: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36]

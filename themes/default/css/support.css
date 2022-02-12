@@ -1,0 +1,27 @@
+﻿
+#support_pacorp {z-index:99;bottom: 0;position: fixed;right: 0;width: 280px;}
+#iconsupport {background: url(../images/hotro.png) no-repeat right bottom transparent; height: 120px;  position: relative; z-index: 21;}
+
+
+
+#hide_pacorp {text-align:right; font-size: 11px;  }
+
+#support_content  {
+       -webkit-box-shadow: 0 15px 15px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0 15px 15px rgba(0,0,0,0.55);
+    box-shadow: 0 15px 15px rgba(0,0,0,0.55);
+	  background-color: #f1f1f1;
+      opacity: 0.8;
+    border: 2px solid  #514703;
+	border-radius: 8px;
+    width: 100%;
+    bottom: 50px
+}
+#support_content ul { margin: 0;padding: 0;}
+.support_arrow {top:25px; margin-left: -25px; position: absolute;z-index: 999999999;width: 0; height: 0;  border-left: 10px solid  transparent; border-right: 10px solid #514703; border-bottom: 10px solid transparent;border-top: 10px solid transparent;
+}
+.support{    border-bottom: 1px dashed #CCC;margin:0; padding:10px;position: relative;}
+.support_left{float: left; width: 25%;}
+.support_left img{	 border: 3px solid #514703;border-radius: 50px;width: 70px; height: 70px;}
+.support_bg a{color: #fff; font-weight: normal; font-size: 16px;}
+.support_bg { width: 68%; float: right;color: #fff;padding: 5px; background-color: #514703;border-radius: 4px;}

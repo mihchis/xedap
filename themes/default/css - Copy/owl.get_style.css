@@ -1,0 +1,93 @@
+.carousel .owl-theme .owl-controls .owl-buttons div.owl-prev{
+	position: absolute;
+	opacity: 1;
+	left: 0;
+	z-index: 1;
+}
+.carousel .owl-theme .owl-controls .owl-buttons div.owl-next{
+	position: absolute;
+	opacity: 1;
+	right: 0;
+	z-index: 1;
+}
+
+
+.carousel .owl-theme .owl-controls{
+    text-align: center;
+    margin: 0px;
+}
+
+.carousel .owl-theme .owl-controls .owl-buttons div{
+	top: 30%;
+    color: #FFF;
+    display: inline-block;
+    zoom: 1;
+    margin: 5px;
+    padding: 7px 15px 6px;
+    font-size: 12px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    background-image: url("../images/news/carousel/arrows.png");
+    background-repeat: no-repeat;
+    filter: Alpha(Opacity=50);
+    opacity: 1;
+    text-indent: -9999px;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+.carousel .owl-theme .owl-controls .owl-buttons div.owl-prev{
+	background-position: 0px 0px;
+}
+.carousel .owl-theme .owl-controls .owl-buttons div.owl-prev:hover{
+	background-position-y: -30px;
+}
+.carousel .owl-theme .owl-controls .owl-buttons div.owl-next {
+    background-position: -30px 0px;
+}
+.carousel .owl-theme .owl-controls .owl-buttons div.owl-next:hover{
+	background-position-y: -30px;
+}
+.carousel .owl-theme .owl-controls .owl-pagination{
+	display: none;
+}
+.carousel .owl-theme .owl-controls .owl-page span {
+    display: block;
+    width: 22px;
+    height: 22px;
+    margin: 5px 7px;
+    filter: Alpha(Opacity=50);
+    opacity: 1;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    background: transparent;
+    background-image: url("../images/news/carousel/bullet.png");
+    background-repeat: no-repeat;
+    -webkit-transition: all .2s ease-in;
+    -moz-transition: all .2s ease-in;
+    -ms-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.carousel .owl-theme .owl-controls .owl-page.active span,
+.carousel .owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	background-position-y: -20px;
+}
+.carousel .owl-carousel .item{
+	margin: 3px;
+}
+.carousel .owl-carousel .owl-item a img{
+	width: 99%;
+	height: 120px;
+    border: 1px solid #ddd;
+    padding: 5px;
+   
+	margin: 0px;
+}
